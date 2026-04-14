@@ -1,12 +1,11 @@
-# ✋ Hand Gesture Media Control 🎵
+# Hand Gesture Media Control 
 
-## 📌 Description
+## Description
 
 Hand Gesture Media Control is a real-time computer vision application that enables users to control media playback using hand gestures captured via a webcam. The system detects hand landmarks and translates specific gestures into media control actions such as play/pause, volume adjustment, navigation, and more.
 
----
 
-## 🚀 Features
+## Features
 
 * Real-time hand tracking using MediaPipe
 * Gesture-based media control
@@ -15,26 +14,24 @@ Hand Gesture Media Control is a real-time computer vision application that enabl
 * Advanced controls (Fullscreen, Theater Mode, Speed control)
 * Smooth and stable gesture detection
 
----
 
-## ✋ Gesture Controls
+## Gesture Controls
 
 | Gesture                | Action                  |
 | ---------------------- | ----------------------- |
-| ✊ Fist                 | Play / Pause            |
-| ✋ Open Palm            | Increase Playback Speed |
-| ✌️ Index + Middle      | Volume Up               |
+| Fist                 | Play / Pause            |
+| Open Palm            | Increase Playback Speed |
+| Index + Middle      | Volume Up               |
 | Ring + Pinky           | Volume Down             |
-| ☝️ Pinky Only          | Next Video              |
+| Pinky Only          | Next Video              |
 | Index + Middle + Ring  | Previous Video          |
 | Middle + Ring          | Theater Mode            |
-| ☝️ Index Only          | Decrease Playback Speed |
+| Index Only          | Decrease Playback Speed |
 | Index + Ring + Pinky   | Forward                 |
 | Index + Middle + Pinky | Rewind                  |
 | Middle + Ring + Pinky  | Fullscreen              |
-| 🤘 Index + Pinky       | Mute / Unmute           |
+| Index + Pinky       | Mute / Unmute           |
 
----
 
 ## 🛠️ Technologies Used
 
@@ -44,9 +41,7 @@ Hand Gesture Media Control is a real-time computer vision application that enabl
 * PyAutoGUI
 * NumPy
 
----
-
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -72,9 +67,7 @@ pip install -r requirements.txt
 hand gesture.py
 ```
 
----
-
-## 🎯 How It Works
+## How It Works
 
 * The webcam captures real-time video
 * MediaPipe detects 21 hand landmarks
@@ -82,9 +75,7 @@ hand gesture.py
 * Each gesture is mapped to keyboard shortcuts using PyAutoGUI
 * Actions are triggered only when gestures are stable
 
----
-
-## 📦 Requirements
+## Requirements
 
 * Webcam-enabled device
 * Python 3.x
@@ -92,16 +83,12 @@ hand gesture.py
 * mediapipe
 * pyautogui
 
----
-
-## 💡 Future Improvements
+## Future Improvements
 
 * Add GUI interface
 * Support for multiple hands
 * Custom gesture configuration
 * Mobile integration
-
----
 
 ## 👨‍💻 Author
 Developed by Bharath M
